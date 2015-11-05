@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'omniauth', '~> 1.1'
+  spec.add_dependency 'json-jwt', '= 0.8.1'
   spec.add_dependency 'openid_connect', '= 0.7.3'
   spec.add_dependency 'addressable', '~> 2.3'
   spec.add_dependency "jwt"
